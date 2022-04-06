@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="js/index.js" defer></script>
    
     <title>inicio</title>
 </head>
@@ -18,11 +19,12 @@
 </header>  
 
 <main>
-    <h1>informe uma data</h1>
-    <input type="date" name="Contador" id="contador_input">
-</main>    
-    
-<button>Iniciar contagem</button>
+    <h1 id="res">informe uma data</h1>
+    <input oninput="mascara(this)" type="text" name="contador_input" id="contador_input" placeholder="DD/MM/AAAA">
+    <input type="submit" id="enviar" value= "Iniciar contagem">
+</main>  
+
+
 </body>
 
 </html>

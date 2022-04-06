@@ -34,8 +34,26 @@ main h1{
     color: #9fa59d;
 }
 
-main input{
+main #contador_input{
     width: 24%;
-    height: 55px;
-    border-radius: 18px;
+    height: 70px;
+    border-radius: 27px;
+    border-width: 0px;
+    background-color: #191A18;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 30px;
+    color: #9fa59d;
+}
+
+main #enviar{
+    margin-top: 2%;
+    width: 24%;
+    height: 70px;
+    border-radius: 27px;
+    border-width: 0px;
+    background-color: #21EB00;
+    font-size: 29px;
+    font-weight: bolder;
+    color: #000;   
 }
