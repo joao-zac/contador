@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+body{
+    background-color: #000;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #21EB00;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+main h1{
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    color: #9fa59d;
+}
+
+main #contador_input{
+    width: 24%;
+    height: 70px;
+    border-radius: 27px;
+    border-width: 0px;
+    background-color: #191A18;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 30px;
+    color: #9fa59d;
+}
+
+main #enviar{
+    margin-top: 2%;
+    width: 24%;
+    height: 70px;
+    border-radius: 27px;
+    border-width: 0px;
+    background-color: #21EB00;
+    font-size: 29px;
+    font-weight: bolder;
+    color: #000;   
+}
