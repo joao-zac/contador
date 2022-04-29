@@ -34,7 +34,7 @@ main h1{
     color: #9fa59d;
 }
 
-main #contador_input{
+main #date{
     width: 24%;
     height: 70px;
     border-radius: 27px;
@@ -46,7 +46,7 @@ main #contador_input{
     color: #9fa59d;
 }
 
-main #enviar{
+main button{
     margin-top: 2%;
     width: 24%;
     height: 70px;
