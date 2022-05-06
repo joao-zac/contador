@@ -1,4 +1,4 @@
-LINK DO PROJETO HOSPEDADO:https://joao-zac.github.io/Advice-generetor/
+LINK DO PROJETO HOSPEDADO:https://joao-zac.github.io/contador/
 
 <p align="center">
   <a href="http://www.freepik.com">
